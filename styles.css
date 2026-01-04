@@ -1,21 +1,32 @@
-.site-header,
-.site-footer {
-  padding: 16px 24px;
+body {
+  margin: 0;
+}
+
+/* Header */
+.site-header {
+  height: 100px;              /* explicit height */
+  padding: 0 24px;           /* horizontal padding only */
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.site-header {
   border-bottom: 1px solid #eee;
 }
 
+.site-header img {
+  max-height: 100%;
+  width: 120px;
+  display: block;
+}
+
+/* Footer */
 .site-footer {
+  padding: 16px 24px;
   border-top: 1px solid #eee;
   font-size: 14px;
   color: #666;
 }
 
+/* Navigation */
 .nav a {
   margin-left: 16px;
   text-decoration: none;
